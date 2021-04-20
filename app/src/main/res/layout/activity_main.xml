@@ -47,7 +47,16 @@
             android:text="Hi leo. Whats up ??\nI need a new logo for group "
             android:textColor="@color/white"
             android:textSize="22sp" />
-<ImageView
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <ImageView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:src="@drawable/ic_double_check"
@@ -136,5 +145,42 @@
 
     </RelativeLayout>
 
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="370dp"
+        android:layout_centerInParent="true"
+        android:padding="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/sendbackground"
+        android:inputType="textPersonName"
+         />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_mic_24"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="22dp"
+        android:layout_marginRight="30dp"></ImageView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_attachment_24"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="22dp"
+        android:layout_marginLeft="70dp"></ImageView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_emoji_emotions_24"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="22dp"
+        android:layout_marginLeft="30dp"></ImageView>
 
 </RelativeLayout>
